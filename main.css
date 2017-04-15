@@ -1,0 +1,471 @@
+﻿	
+	
+	@font-face {
+    font-family: myFirstFont;
+    src: url(_font/Asap-Regular.ttf);
+}
+	
+	@font-face {
+    font-family: mySecondFont;
+    src: url(_font/Orbitron-Regular.ttf);
+}
+	
+	.defaultFirst{
+		
+		font-family:myFirstFont,Serif;
+	}
+	
+	.defaultSecond{
+		font-family:mySecondFont,Serif;
+	}
+	
+	/* Define the width of the scrollbar */
+	::-webkit-scrollbar {
+    width: 10px;
+	}
+
+	/* Define the scroll bar background*/
+	::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+	/*Defind the thumb of the scrollbar*/
+	::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 25px;
+	background: rgba(198,83,140,.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+	/* auto align the body element for lab week-5 */
+	.methd2{	
+	margin: auto;
+	width:80%;
+	max-width: 1600px;
+	min-width: 800px;
+		}
+	
+	
+	.bkgroundred{
+	background-image: url("images/pink12.jpg");
+	opacity: 0.90;
+	}
+	
+	.thomashome{
+		background-repeat:repeat-x;
+		background-image: url("images/thomas5.jpg");
+		
+			
+	}
+	
+	.thomasshop{
+		background-repeat:repeat-x;
+		background-image: url("images/thomas8.jpg");
+		background-size:1100px;
+		
+			
+	}
+	
+	.thomascontact{
+		
+		background-repeat:no-repeat;
+		background-size:1100px;
+		background-image: url("images/thomas4.jpg");
+		
+	}
+	
+	.introImage{
+		float:right;
+		height:450px;
+		margin-left:15px;
+		margin-right:15px;
+	}
+	
+	.SeasonImage{
+		height:250px;
+		margin-right:15px;
+		margin-left:15px;
+		
+	}
+	
+	.SeasonDesc
+	{
+		margin-left:260px;
+		position:absolute;	
+		
+		
+	}
+	
+	
+	
+	
+	.SeasonName{
+		margin-left:15px;
+		float:left;
+		height:300px;
+			
+	}
+	
+	.SeasonItem{
+		height:325px;
+		position:relative;
+		margin-top:30px;
+		
+		
+		
+	}
+	
+	
+	.headtemp
+	{
+	border:5px double black;
+	
+	height: 500px;
+	min-width:1100px;
+	border-radius:10px;
+	margin: auto;
+	}
+	
+	
+	.menu{	
+	text-decoration:none;
+	padding:5px;
+	font-size:18px;
+	text-align:center;
+	
+	}
+	
+	a.txttrylink:link, a.txttryvisited:visited{
+			color:purple;
+			text-decoration:none;
+			padding:5px;
+			font-size:18px;
+			text-align:center;
+					
+	}
+	
+	
+	a.txttryhover:hover, a.txttryactive{
+		color:red;
+	}
+	
+	
+	nav a:link, nav a:visited{
+	border: 2px solid black;
+	padding:5px;
+	color:black;
+	font-size:18px;
+	text-align:center;
+	background-color:white;
+	text-decoration:none;
+	}
+	
+	nav a:hover, nav a:active{
+	text-decoration:underline;
+	background-color:black;
+	color:white;	
+	}
+	
+	
+		
+	.mainNav{
+	margin-left:780px;
+	height:5px;
+	word-spacing:10px;
+	display:inline;
+	
+	}
+	
+	.maincontent{
+	border:2px solid black;
+	border-radius:10px;
+	background-image: url("images/bg1.jpg");
+	height: 750px;
+	min-width:1106px;
+	margin: auto;
+	color: black;
+	overflow:auto;
+	
+	}
+	
+	.required{
+		color:white;
+	}
+	
+	
+	
+	.contactfield{
+		
+		margin-left:100px;
+		width:350px;
+		height:230px;
+		position:absolute;
+		
+		
+	}
+	
+	
+	.checkoutfield{
+		
+		margin-left:100px;
+		width:250px;
+		height:230px;
+		position:absolute;
+		
+		
+	}
+	
+	
+	.errorfield{
+		
+		margin-left:400px;
+		width:250px;
+		height:230px;
+		position:absolute;
+		font-size:14px;
+		color:white;
+		
+		
+		
+	}
+	
+	
+	
+	.contactlabel{
+		width:300px;
+		display:block;
+		float:left;
+		
+	}
+	
+	.checkoutlabel{
+		width:100px;
+		display:block;
+		float:left;
+		
+	}
+	
+	.contactinput{
+		width:300px;
+	}
+	
+	.contactrow	{
+		
+		display:block;
+		margin-left:15px;
+		position:relative;
+		height:30px;
+		width:700px;
+		
+	}
+	
+	
+	table,th,td,tr	{
+		
+		
+		
+		border:1px solid black;
+		
+		
+		
+	}
+	
+	
+	.checkoutrow	{
+		
+		display:block;
+		margin-left:15px;
+		margin-bottom:10px;
+		position:relative;
+		height:30px;
+		width:500px;
+		
+	}
+	
+	
+	.contactdescriptionlabel{
+		width:300px;
+		display:block;
+		float:left;
+		height:230px
+		
+	}	
+	
+	
+	.contactdescriptionrow{
+		
+		display:block;
+		margin-left:15px;
+		position:relative;
+		height:230px;
+		width:700px;
+		
+	}
+	
+	
+	.contactdescriptionfield{
+		
+		margin-left:100px;
+		width:350px;
+		height:230px;
+		position:absolute;
+		
+		
+	}
+	
+		
+		
+	
+	header>h1{
+	text-align:center;
+	font-size:25px;
+	text-decoration:underline;
+	}
+	
+	section>p{
+	margin:20px;
+	text-align:justify;
+	font-size:16px;
+	text-indent:25px;
+	}
+	
+	.footercontent{
+	
+	border:2px solid black;
+	border-radius:10px;
+	
+	background-image: url("images/bg1.jpg");
+	height: 100px;
+	min-width:1106px;
+	margin:auto;
+	color: black;
+	
+	}
+	
+	
+	.copyright{
+		margin:50px;
+		float:left;
+		text-align:left;
+				
+	}
+	
+		.sociallinks{
+	margin-left:600px;
+	position: relative;
+	
+	
+	}
+	
+
+	img{
+	height:50px;
+	}
+	
+	li{
+	display:inline;
+	padding:25px;
+	}
+	
+	
+	
+	
+	
+	.contactlayout{	
+		margin-left:75px;
+		/*margin-bottom:25px; */
+		font-size:18px;
+		 background-color:rgb(198, 83, 140) ; 
+		font-weight:bold;
+		width:800px;
+	}
+	
+	
+	.tablelayout{	
+		margin-left:75px;
+		/*margin-bottom:25px; */
+		font-size:18px;
+		 background-color:rgb(198, 83, 140) ; 
+		font-weight:bold;
+		width:800px;
+		text-align:center;
+		
+	}
+	
+	
+	
+	.checkoutlayout{	
+		margin-left:75px;
+		/*margin-bottom:25px; */
+		font-size:18px;
+		 background-color:rgb(198, 83, 140) ; 
+		font-weight:bold;
+		width:1000px;
+	}
+	
+	
+	.contactbutton{
+		margin-top:1px;
+		margin-left:400px;
+		width:200px;
+		height:30px; 
+		background-color:rgb(198, 83, 140);
+		color:white;
+	}
+	
+	.contactbutton:hover{
+		background-color:rgb(128, 0, 96);
+		color:white;
+		
+	}
+	
+	
+	.flexibilitylabel{
+		font-size:15px;
+		font-height:normal;
+	}
+	
+	.inflexible{
+		font-size:13px;
+		font-height:normal;
+		padding-right:70px
+	}
+	
+	.flexible{
+		font-size:13px;
+		font-height:normal;
+		padding-right:50px
+	}
+	
+	
+	.superflexible{
+		font-size:13px;
+		font-height:normal;
+		
+	}
+	
+	.performancesize{
+		width:304px;
+		
+	}
+	
+	.contactform{
+		margin-left:50px;
+		
+		
+				}
+				
+	.centerError{
+		text-align:center;
+		background-color:black;
+		
+	}			
+	
+	
+	
+	
+	
+	
+	
